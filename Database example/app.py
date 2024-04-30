@@ -93,7 +93,7 @@ def print_all_aircraft_by_payload_desc():
 
 #main code
 while True:
-    user_input = input("\nWhat would you like to do?. \n1. Print all aircraft\n2. Print all aircraft ordered by speed descending\n3. Print all aircraft ordered by max gforce descending\n4. Print all aircraft ordered by climbrate descending\n5. Print all aircraft ordered by range descending\n6. Print all aircraft ordered by payload descending\n7. Exit\n")
+    user_input = input("\nWhat would you like to do?. \n1. Print all aircraft\n2. Print all aircraft ordered by speed descending\n3. Print all aircraft ordered by max gforce descending\n4. Print all aircraft ordered by climbrate descending\n5. Print all aircraft ordered by range descending\n6. Print all aircraft ordered by payload descending\n7. Exit\n\n")
     if user_input == "1":
         print_all_aircraft()
     elif user_input == "2":
